@@ -184,9 +184,10 @@ a:hover .nav_link{
 
 .works_image {
       line-height: 110%;
-   
+   text-align: center;
+
     height: 200px;
-     margin:30px;
+     margin:0px ;
     
     /* float: left; */
 }
