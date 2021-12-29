@@ -186,7 +186,8 @@ a:hover .nav_link{
       line-height: 110%;
    text-align: center;
 
-    height: 200px;
+    height: 300px;
+    width: 300px;
      margin:0px ;
     
     /* float: left; */
