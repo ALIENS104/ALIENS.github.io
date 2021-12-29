@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 
 *, ::after, ::before {
@@ -196,12 +195,12 @@ a:hover .nav_link{
     opacity: 70%;
 }
 
-/* これよりabout */
+/* これよりConcept */
 
-.about_maintitle{
+.Concept_maintitle{
     color: #00bed4;
 }
-.about_title {
+.Concept_title {
     font-weight: 70;
     font-size: 24px;
     line-height: 110%;
@@ -209,7 +208,7 @@ a:hover .nav_link{
    
 }
 
-.about_detail {
+.Concept_detail {
     margin-top: 32px;
 	text-align: justify;
     
@@ -291,7 +290,3 @@ a:hover .nav_link{
   width: 100%;
   height: 100%;
 }
-
-
-
-
