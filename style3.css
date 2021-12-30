@@ -90,14 +90,15 @@ left: 20px;
     bottom: 15px;
     height: 30px;
     text-decoration: none;
-width: 170px;
+width: 150px;
   
-    font-size: 40px ;
+    font-size: 30px ;
     
     line-height: 60%;
     color: #00bed4;
     padding: 20px 30px 45px ;
     border-top: solid 2px;
+}
 }
 .back::before {
     content: "";
