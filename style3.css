@@ -19,33 +19,6 @@ html {
     overflow-y: scroll;
 }
 
-/***追従するトップへ戻るボタン***/
-#page-top {
-    position: fixed;
-    right: 5px;
-    bottom: 20px;
-    height: 50px;
-    text-decoration: none;
-    
-    transform: rotate(90deg);
-    font-size: 90%;
-    line-height: 1.5rem;
-    color: #00bed4;
-    padding: 0 0 0 35px;
-    border-top: solid 1px;
-}
-#page-top::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -1px;
-    left: 0px;
-    width: 15px;
-    border-top: solid 1px;
-    transform: rotate(35deg);
-    transform-origin: left top;
-}
-/***トップへ戻るボタンここまで***/
 
 body {
     height: 100%;
@@ -93,4 +66,20 @@ a:active {
     display: block; 
 	padding: 1rem 30px; 
     margin-bottom: 170px;
+}
+
+.video_wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video_wrapper > video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
 }
