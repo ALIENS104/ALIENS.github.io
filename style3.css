@@ -111,17 +111,17 @@ width: 100px;
     border-top: solid 1px;
 
 }
-
 .back::before {
     content: "";
     display: block;
     position: absolute;
     top: -1px;
     left: 0px;
-    width: 30px;
-    border-top: solid 2px;
+    width: 20px;
+    border-top: solid 1px;
     transform: rotate(35deg);
     transform-origin: left top;
+
 }
    /*position: fixed;
     left: 10px;
