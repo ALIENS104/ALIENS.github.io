@@ -119,8 +119,12 @@ h2[class$="title"] {
     margin-top: 10px;
 }
 
+/* これよりあいさつ */
 
-
+.hello_text{
+     margin-top: 150px;
+    font-size: 16px;
+}
 
 
 
@@ -168,21 +172,21 @@ a:hover .nav_link{
 .concept_detail {
     margin-top: 32px;
 	text-align: justify;
-    
+     
 }
 
 
 
 
-/* これよりworks */
-.works_maintitle{
+/* これよりGallery */
+.Gallery_maintitle{
     color: #00bed4;
 }
 .nannde_title{
      margin-top: 70px;
 }
 
-.works_image {
+.Gallery_image {
       line-height: 110%;
    text-align: center;
 
@@ -197,23 +201,23 @@ a:hover .nav_link{
 
 
 
-/* これよりLive */
-.live_maintitle{
+/* これよりarchive */
+.archive_maintitle{
      color: #00bed4;
 }
-.live_title {
+.archive_title {
 	font-size: 24px;
     line-height: 110%;
     margin-top: 100px;
 }
 
-.live_nitizi {
+.archive_nitizi {
 	font-size: 20px;
 	font-weight: 500;
 	margin-top: 22px;
 }
 	
-.live_detail {
+.archive_detail {
     margin-top: 38px;
 	padding-bottom: 38px;
 }
