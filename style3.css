@@ -85,13 +85,14 @@ a:active {
 }
 .back{ 
     position: fixed;
-    left: 10px;
+     
+left: 10px;
     bottom: 15px;
     height: 20px;
     text-decoration: none;
-   
-   
-    font-size: 90%;
+
+  
+    font-size: 90% ;
     line-height: 1.5rem;
     color: #00bed4;
     padding: 0 0 0 35px;
@@ -123,7 +124,4 @@ a:active {
     
     content: "";*/
     
-    
-    
-  
- 
+
