@@ -84,11 +84,34 @@ a:active {
     min-height: 100%;
 }
 .back{ 
-   
     position: fixed;
     left: 10px;
+    bottom: 15px;
+    height: 20px;
+    text-decoration: none;
+    margin:
+   
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: #00bed4;
+    padding: 0 0 0 35px;
+    border-top: solid 1px;
+}
+.back::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 1px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+}
+   /*position: fixed;
+    left: 10px;
     bottom: 5px;
-    height: 2-0px;
+    height: 20px;
     text-decoration: none;
     
     
@@ -97,4 +120,10 @@ a:active {
     color: #00bed4;
     padding: 0 0 0 px;
     border-top: solid 1px;
-   }
+    
+    content: "";*/
+    
+    
+    
+  
+ 
