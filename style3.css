@@ -83,3 +83,18 @@ a:active {
     min-width: 100%;
     min-height: 100%;
 }
+.back{ 
+   
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    height: 2-0px;
+    text-decoration: none;
+    
+    
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: #00bed4;
+    padding: 0 0 0 px;
+    border-top: solid 1px;
+   }
