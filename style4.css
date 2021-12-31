@@ -12,7 +12,7 @@
 
 html {
     box-sizing: border-box;
-    background-color:#faf8f5 ;
+    background-color:#00bed4 ;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -54,7 +54,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-  color: #00bed4;
+  color: black;
 }
 
 .container {
@@ -80,22 +80,24 @@ h2[class$="title"] {
 
 
 /* これよりstory */
+.column{color: #faf8f5;  }
+
 .story_maintitle{
-    color: #00bed4;
+    
     font-size: 20px;
     
 }
 .story_detail {
     margin-top: 32px;
 	text-align: justify;
-     
+   color: #faf8f5;  
 }
 
 .back{ 
     position: fixed;
      
 left: 20px;
-   
+    color: black;
     text-decoration: none;
     position: fixed;
 
@@ -112,7 +114,7 @@ left: 20px;
     
    
     
-    color: #00bed4;
+   
     padding: 0 0 0 35px ;
     border-top: solid 1px;
 
@@ -127,6 +129,7 @@ left: 20px;
     border-top: solid 1px;
     transform: rotate(35deg);
     transform-origin: left top;
+    color: black;
 }
 
 
