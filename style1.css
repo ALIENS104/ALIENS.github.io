@@ -33,6 +33,7 @@ html {
     color: #00bed4;
     padding: 0 0 0 35px;
     border-top: solid 1px;
+    
 }
 #page-top::before {
     content: "";
@@ -123,7 +124,7 @@ h2[class$="title"] {
 
 .hello_text{
      margin-top: 150px;
-    font-size: 16px;
+    
 }
 
 
@@ -193,6 +194,12 @@ a:hover .nav_link{
     height: 300px;
     width: 300px;
      margin:0px ;
+}
+    .Gallery_detail {
+        font-size: 20px;
+    margin-top: 32px;
+	text-align: justify;
+     
     
     /* float: left; */
 }
@@ -218,9 +225,22 @@ a:hover .nav_link{
 }
 	
 .archive_detail {
+    
     margin-top: 38px;
 	padding-bottom: 38px;
 }
 
+/* これよりcomment form */
 
+.comment_maintitle{
+    color: #00bed4;
+    font-size: 20px;
+    
+}
+.comment_title{ 
+    font-weight: 70;
+    
+    line-height: 110%;
+    margin-top: 70px;
+   }
 
