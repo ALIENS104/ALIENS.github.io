@@ -12,7 +12,7 @@
 
 html {
     box-sizing: border-box;
-    background-color:#faf8f5 ;
+    background-color:#3EF0F4 ;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -52,7 +52,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-  color: #00bed4;
+  color: #e34081;
 }
 
 .container {
@@ -111,7 +111,7 @@ left: 20px;
     
    
     
-    color: #00bed4;
+    color: #e34081;
     padding: 0 0 0 35px ;
     border-top: solid 1px;
 
@@ -127,3 +127,21 @@ left: 20px;
     transform: rotate(35deg);
     transform-origin: left top;
 }
+   /*position: fixed;
+    left: 10px;
+    bottom: 5px;
+    height: 20px;
+    text-decoration: none;
+    
+    
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: #00bed4;
+    padding: 0 0 0 px;
+    border-top: solid 1px;
+    
+    content: "";*/
+   
+    
+  
+ 
