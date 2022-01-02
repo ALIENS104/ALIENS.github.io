@@ -98,7 +98,7 @@ display : inline-block;
 white-space : nowrap;
 line-height : 1.5em;
     list-style: none;
-animation : scrollSample03 28s linear infinite;
+animation : scrollSample03 29s linear infinite;
 }
 .sample03 ul li{
     margin-top: 200px;
