@@ -238,9 +238,15 @@ a:hover .nav_link{
 }
 .comment_title{ 
     font-weight: 70;
-    
+     color:#ff8e01 ;
     line-height: 110%;
     margin-top: 70px;
    }
+.comment_title a{
+    background-color: #ff8e01;
+    color: #faf8f5;
+padding: 7px 12px 7px 12px ;
+    border-radius:5em;
+}00bed4
 
 
